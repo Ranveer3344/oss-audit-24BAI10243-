@@ -1,5 +1,4 @@
 #!/bin/bash
-# Script 3: Disk and Permission Auditor
 
 DIRS=("/etc" "/home" "/var/log" "/usr/bin" "/tmp")
 
@@ -16,7 +15,6 @@ for DIR in "${DIRS[@]}"; do
     fi
 done
 
-# Check Git config directory
 echo ""
 echo "===== Git Config Check ====="
 
