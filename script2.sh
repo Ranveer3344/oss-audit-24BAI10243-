@@ -1,5 +1,4 @@
 #!/bin/bash
-# Script 2: FOSS Package Inspector
 
 PACKAGE="git"
 
@@ -10,7 +9,6 @@ else
     echo "$PACKAGE is NOT installed"
 fi
 
-# Case statement
 case $PACKAGE in
     git)
         echo "Git: distributed version control system"
