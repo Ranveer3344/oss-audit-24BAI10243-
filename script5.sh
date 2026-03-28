@@ -1,5 +1,4 @@
 #!/bin/bash
-# Script 5: Open Source Manifesto Generator
 
 echo "Answer the following questions:"
 echo ""
